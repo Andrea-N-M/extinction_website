@@ -1,14 +1,14 @@
 <!DOCTYPE html>
+    <head>
 <html lang="en">
 <link rel="stylesheet" href="mystyle.css">
-<head>
     <title>Current Extinctions</title>
 </head>
 <div class="Navigatebuttonstoday"> 
     <!--Manipulated from bootstrap https://getbootstrap.com/docs/4.0/components/buttons/-->
-    <button type="button" class="btn-home3" >Home</button>
-    <button type="button" class="btn-info3">Paleozoic Era Extinction</button>
-    <button type="button" class="btn-today3">Current Extinctions</button>
+    <a type="button" class="btn-home3" href="index.html">Home</a>
+    <a type="button" class="btn-info3" href="paleozoic_extinction.html">Paleozoic Era Extinction</a>
+    <a type="button" class="btn-today3" href="today_extinction.html">Current Extinctions</a>
 </div>
 <header>
     <h1>Current Extinctions</h1>
@@ -17,4 +17,70 @@
     <p>This is a paragraph. </p>
     <p>Click <a href="http://google.com">here</a> to visit Google.</p>
 </body>
+
+<!-- Modified from https://getbootstrap.com/docs/4.0/components/card/-->
+<div class="card-extinction1" style="width: 286px;height: 180px; float: left;">
+    <img class="card-img-top" src="../Users/andrea/Desktop/Andrea/Pictures/IMG_5270.JPG." alt="Card image">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#">Go somewhere</a>
+    </div>
+</div>
+<div class="card-extinction2" style="width: 286px;height: 180px; float: center;">
+    <img class="card-img-top" src="../Users/andrea/Desktop/Andrea/Pictures/IMG_5270.JPG." alt="Card image">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#">Go somewhere</a>
+    </div>
+</div>  
+<div class="card-extinction3.img" style="width: 286px;height: 180px; float: right;">
+    <img class="card-img-top" src="../Users/andrea/Desktop/Andrea/Pictures/IMG_5270.JPG." alt="Card image">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#">Go somewhere</a>
+    </div>
+</div>
+<style>
+    * {
+        background-color: rgb(135, 184, 184);
+    }
+    .Navigatebuttonstoday {
+        text-align: center 
+    }
+    .btn-home3{
+        text-decoration: none;
+        background-color: rgb(95, 129, 102);
+        color: white;
+        padding: 10px 28px;;
+        border: lightgrey;
+        text-align: center  
+    }
+    .btn-info3 {
+        text-decoration: none;
+        background-color: rgb(119, 164, 128);
+        color: white;
+        padding: 10px 28px;;
+        border: lightgrey;
+        text-align: center
+}
+    /*from https://www.w3schools.com/csS/css3_buttons.asp  */
+    .btn-info3:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .btn-today3 {
+        text-decoration: none;
+        background-color: rgb(119, 164, 128);
+        color: white;
+        padding: 10px 28px;;
+        border: lightgrey;
+        text-align: center
+    }
+    /*from https://www.w3schools.com/csS/css3_buttons.asp  */
+    .btn-today3:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+</style>
 </html>
