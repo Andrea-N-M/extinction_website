@@ -4,61 +4,90 @@
 <link rel="stylesheet" href="mystyle.css">
     <title>Current Extinctions</title>
 </head>
-<div class="Navigatebuttonstoday"> 
+<div id="Navigatebuttonstoday"> 
     <!--Manipulated from bootstrap https://getbootstrap.com/docs/4.0/components/buttons/-->
     <a type="button" class="btn-home3" href="index.html">Home</a>
     <a type="button" class="btn-info3" href="paleozoic_extinction.html">Paleozoic Era Extinction</a>
     <a type="button" class="btn-today3" href="today_extinction.html">Current Extinctions</a>
 </div>
 <header>
-    <h1>Current Extinctions</h1>
+    <h1 style="text-align: center;">Current Extinctions</h1>
 </header>
-<body>
-    <p>This is a paragraph. </p>
-    <p>Click <a href="http://google.com">here</a> to visit Google.</p>
+<body style="text-align: center;">
+    <p> Scientist believe we are in the sixth mass extinction. However, this time it is human caused. 
+    It won't only affect some animals, but the whole ecosystem.  </p>
+    <sup> <i>Click <a href="http://google.com">here</a>, this is a website about the sixth mass extinction. </i> </sup>
 </body>
 
-<!-- Modified from https://getbootstrap.com/docs/4.0/components/card/#sizing-->
-<div class="card-group"  
+
+<!-- Modified from https://getbootstrap.com/docs/4.0/components/card/#sizing and https://www.w3schools.com/howto/howto_css_column_cards.asp-->
+<div class="row" max-width="100%" style="display: block;">
+  <div class="column" max-width="100%"> 
     <div class="card_thylacine">
-      <img class="thylacin_card-img" src="Thylacine_extinct.jpg" alt="Two Thylacine" width="100%">
+      <img class="thylacine_card-img" src="Thylacine_extinct.jpg" alt="Two Thylacine" width="100%">
       <div class="thylacine_card-body">
-        <h5 class="thylacine_card-title">Thylacine</h5>
-        <p class="thyalcine_card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h2 class="thylacine_card-title">Thylacine</h2>
+        <p class="thyalcine_card-text">The Thylacine also known as the Tasmanian tiger went extinct on 7 September 1936. Thhey were led to extinction becuase of over hunting, disease, and habitat destruction.
+          <a href="https://www.nma.gov.au/defining-moments/resources/extinction-of-thylacine" target="_blank">Learn more about the Thylacine.</a> </p>
+        <!-- Used target blank from https://www.w3schools.com/html/html_links.asp-->
       </div>
       <div class="thylacine_card-footer">
-        <small class="text-muted">"Thylacines 01 (Wiki)" by smiteme is licensed under CC BY 2.0.</small>
-      </div>
-    </div>
-</div>
-    <div class="card_Pinta">
-      <img class="Pinta_card-img" src="Pinta_Giant_Tortoise.jpg" alt="A Pinta Giant Tortoise" width="100%">
-      <div class="Pinta_card-body">
-        <h5 class="Pinta_card-title">Pinta Giant Tortoise</h5>
-        <p class="Pinta_card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="Pinta_card-footer">
-        <small class="text-muted">"File:Lonesome George -Pinta giant tortoise -Santa Cruz.jpg" by putneymark is licensed under CC BY-SA 2.0.</small>
-      </div>
-    </div>
-    <div class="card_akepa" float="right">
-      <img class="akepa_card-img" src="Maui_Akepa.jpeg" alt="A yellow Maui Akepa" width="100%">
-      <div class="akepa_card-body" float="right">
-        <h5 class="akepa_card-title">Maui Akepa</h5>
-        <p class="akepa_card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="akepa_card-footer">
-        <small class="text-muted">"File:Loxops ochracea Roths, male (Maui 'akepa), Bishop Museum, Honolulu.JPG" by Hiart is marked with CC0 1.0.</small>
+        <small class="text-muted">"<span> <a href="https://www.flickr.com/photos/97217080@N00/3772826419"> "Thylacines 01 (Wiki)"</a>
+        </span> by <span> <a href="https://www.flickr.com/photos/97217080@N00"> smiteme</a> </span>is licensed under <span> 
+          <a href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0. </a> </span>
+          <!--Using <span> for links instead from https://www.w3schools.com/Tags/tag_span.asp-->
+        </small>
       </div>
     </div>
   </div>
+  <div class="column">
+    <div class="card_pinta">
+      <img class="pinta_card-img" src="Pinta_Giant_Tortoise.jpg" alt="A Pinta Giant Tortoise" width="100%">
+      <div class="pinta_card-body">
+        <h2 class="pinta_card-title">Pinta Giant Tortoise</h2>
+        <p class="pinta_card-text">The last Pinta Giant Tortoise, named George died in captivity on June 24, 2012. Deforestation and using them as a food source for whales led them to extinction.
+          <a href="https://www.treehugger.com/animals-presumed-extinct-in-the-last-decade-4869347" target="_blank">Learn more about the Pinta Giant Tortoise and recently extinct animals</a> </p>
+          <!-- Used target blank from https://www.w3schools.com/html/html_links.asp-->
+      </div>
+      <div class="pinta_card-footer">
+        <small class="text-muted"> <span> <a href="https://commons.wikimedia.org/w/index.php?curid=3893917"> "File:Lonesome George -Pinta giant tortoise -Santa Cruz.jpg" </a> </span> by 
+          <span> <a href="https://www.flickr.com/photos/23005733@N00"> putneymark </a> </span> is licensed under <span> <a href="https://creativecommons.org/licenses/by-sa/2.0/?ref=openverse"> CC BY-SA 2.0.</a></span> 
+        <!--Using <span> for links instead from https://www.w3schools.com/Tags/tag_span.asp-->
+        </small>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card_akepa" float="right">
+      <img class="akepa_card-img" src="Maui_Akepa.jpeg" alt="A yellow Maui Akepa" width="100%">
+      <div class="akepa_card-body" float="right">
+        <h2 class="akepa_card-title">Maui Akepa</h2>
+        <p class="akepa_card-text">This native Maui bird was listed as possibly extinct in 2018. The last sighting of the bird was in 1988. 
+          The main theory of their extinction is due to the avian flu because of mosquitos. 
+          <a href="https://www.treehugger.com/animals-presumed-extinct-in-the-last-decade-4869347" target="_blank">Learn more about the Maui Akepa and recently extinct animals</a> </p>
+          <!-- Used target blank from https://www.w3schools.com/html/html_links.asp-->
+      </div>
+      <div class="akepa_card-footer">
+        <small class="text-muted"> <span> <a href="https://commons.wikimedia.org/w/index.php?curid=48470347"> "File:Loxops ochracea Roths, male (Maui 'akepa), Bishop Museum, Honolulu.JPG" </a> </span> by 
+          <span> <a href="https://commons.wikimedia.org/w/index.php?title=User:Hiart&action=edit&redlink=1"> Hiart </a></span> is marked with <span> <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en?ref=openverse"> CC0 1.0 </a></span> 
+        <!--Using <span> for links instead from https://www.w3schools.com/Tags/tag_span.asp-->
+        </small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 style="text-align: left; padding: 30px; padding-top: 600px;">Are We in The 6th Mass Extinction?</h2>
+<!--embedded video from https://support.google.com/youtube/answer/171780?hl=en-->
+  <iframe width="760" height="515" src="https://www.youtube.com/embed/z9gHuAwxwAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 <style>
-    .Navigatebuttonstoday {
-        text-align: center 
-    }
+    #Navigatebuttonstoday{
+      text-align: center
+      /* the id from https://www.w3schools.com/html/html_id.asp*/
+    } 
     .btn-home3{
         text-decoration: none;
-        background-color: rgb(95, 129, 102);
+        background-color: rgb(119, 164, 128);
         color: white;
         padding: 10px 28px;;
         border: lightgrey;
@@ -78,7 +107,7 @@
     }
     .btn-today3 {
         text-decoration: none;
-        background-color: rgb(119, 164, 128);
+        background-color: rgb(95, 129, 102);
         color: white;
         padding: 10px 28px;;
         border: lightgrey;

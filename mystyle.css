@@ -79,4 +79,32 @@
 .today { 
     background-color: rgb(135, 184, 184);
 }
+.column_thylacine {
+    width: 33.33%;
+    float: left;
+}
+.column_pinta{
+    width: 33.33%;
+    float: middle;
+}
+.column_akepa{
+width: 33.33%;
+float: right;
+}
+.column {
+  float: left;
+  width: 31%;
+  padding: 0 10px;
+  border: 1px solid rgb(213, 211, 211);
+}
+
+.thylacine_card-img{
+    height: 320px;
+}
+.pinta_card-img{
+    height: 320px;
+}
+.akepa_card-img{
+    height: 320px;
+}
 
