@@ -39,6 +39,42 @@
         .btn-today:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
+    .figure_first{
+        float: right;
+    }
+    .row_first{
+        float: left;
+        vertical-align: center;
+    }
+    .figure_second{
+        float: left;
+    }
+    .row_second{
+        float: right;
+        vertical-align: center;
+    }
+    .figure_three{
+        float: right;
+    }
+    .row_third{
+        float: left;
+        vertical-align: center;
+    }
+    .figure_four{
+        float: left;
+    }
+    .row_four{
+        float: right;
+        vertical-align: center;
+    }
+    .figure_five{
+        float: right;
+    }
+    .row_five{
+        float: left;
+        vertical-align: center;
+    }
+   
 
 .paleozoic {
     background-color: rgb(218, 166, 163);
